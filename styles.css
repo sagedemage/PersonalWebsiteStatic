@@ -37,3 +37,10 @@ h1 {
 	background-color: purple;
 	color: white;
 }
+img {
+	display: block;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	margin-left: 10%;
+	margin-right: auto;
+}
