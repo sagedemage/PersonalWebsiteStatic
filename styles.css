@@ -37,18 +37,25 @@ h1 {
 	background-color: purple;
 	color: white;
 }
-.image_logo {
+#debian_logo {
 	display: block;
-	margin-bottom: 40px;
-	margin-top: 40px;
-	margin-left: 10%;
+	padding-right: 20px;
+	float: left;
 	margin-right: auto;
 }
 
+#gnome_logo {
+	display: block;
+	float: left;
+}
+
 .large_image {
-	margin-left: 10%;
-	margin-right: auto;
 	max-width: 80%;
 	height: auto;
 	
+}
+
+.caption {
+	float: right;
+	padding-bottom: 30px;
 }
