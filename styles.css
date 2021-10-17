@@ -7,10 +7,23 @@
 	padding-left: 5%;
 	padding-right: 5%;
 	padding-bottom: 10%;
-	border: 2px solid gray;
+	font-size: 20px;
 }
+
+/*#home {
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 2%;
+        background-color: white;
+        padding-top: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 10%;
+	font-size: 20px;
+}*/
+
 .margins {
-	background-color: lightgray;
+	background-color: #efefef;
 	padding-top: 10px;
 	padding-bottom: 10%;
 }
