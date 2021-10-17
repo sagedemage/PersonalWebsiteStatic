@@ -28,8 +28,8 @@ h1 {
 	color: white;
 	padding-left: 25px;
 	padding-right: 25px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 7px;
+	padding-bottom: 8px;
 	font-size: 20px;
 	text-decoration: none;
 }
@@ -37,10 +37,18 @@ h1 {
 	background-color: purple;
 	color: white;
 }
-img {
+.image_logo {
 	display: block;
 	margin-bottom: 40px;
 	margin-top: 40px;
 	margin-left: 10%;
 	margin-right: auto;
+}
+
+.large_image {
+	margin-left: 10%;
+	margin-right: auto;
+	max-width: 80%;
+	height: auto;
+	
 }
