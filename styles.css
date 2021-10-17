@@ -39,7 +39,10 @@ h1 {
 }
 #debian_logo {
 	display: block;
+	padding-left: 20px;
 	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	float: left;
 	margin-right: auto;
 }
@@ -56,6 +59,6 @@ h1 {
 }
 
 .caption {
-	float: right;
+	/*float: right;*/
 	padding-bottom: 30px;
 }
