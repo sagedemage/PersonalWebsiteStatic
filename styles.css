@@ -80,7 +80,12 @@ h1 {
 	padding-bottom: 30px;
 }
 
-.glow:hover {
+.icon-link {
+	float: left;
+	margin-left: 5px;
+}
+
+.icon-link:hover {
 	background-color: white;
 	border-radius: 50%;
 }
