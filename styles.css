@@ -19,8 +19,10 @@ main {
 	padding-bottom: 10%;
 }
 
-#home-margins {
-	padding-bottom: 28%;
+footer {
+	padding-top: 75px;
+	padding-bottom: 25px;
+	background-color: lightgray;
 }
 
 h1 {
@@ -45,6 +47,7 @@ h1 {
 	background-color: purple;
 	color: white;
 }
+
 #debian_logo {
 	display: block;
 	padding-left: 20px;
@@ -58,6 +61,9 @@ h1 {
 #gnome_logo {
 	display: block;
 	float: left;
+}
+#copyright {
+	text-align: center;
 }
 
 .large_image {
