@@ -79,3 +79,8 @@ h1 {
 	/*float: right;*/
 	padding-bottom: 30px;
 }
+
+.glow:hover {
+	background-color: white;
+	border-radius: 50%;
+}
