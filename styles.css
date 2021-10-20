@@ -20,8 +20,8 @@ main {
 }
 
 footer {
-	padding-top: 75px;
-	padding-bottom: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	background-color: lightgray;
 }
 
@@ -64,6 +64,9 @@ h1 {
 }
 #copyright {
 	text-align: center;
+}
+#links {
+	padding-left: 50px;
 }
 
 .large_image {
