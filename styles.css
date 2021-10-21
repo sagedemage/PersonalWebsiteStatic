@@ -33,9 +33,7 @@ h1 {
 	background-color: #303030;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	overflow: auto;
-	position: relative;
-	
+	overflow: hidden;
 }
 .navigation a {
 	color: white;
