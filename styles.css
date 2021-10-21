@@ -40,7 +40,7 @@ h1 {
 	padding-right: 25px;
 	padding-top: 7px;
 	padding-bottom: 8px;
-	font-size: 20px;
+	font-size: 18px;
 	text-decoration: none;
 }
 .navigation a:hover {
@@ -72,7 +72,6 @@ h1 {
 .large_image {
 	max-width: 80%;
 	height: auto;
-	
 }
 
 .caption {
