@@ -30,9 +30,12 @@ h1 {
 }
 
 .navigation {
-	background-color: black;
+	background-color: #303030;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	overflow: auto;
+	position: relative;
+	
 }
 .navigation a {
 	color: white;
@@ -43,8 +46,18 @@ h1 {
 	font-size: 18px;
 	text-decoration: none;
 }
+
+.navigation a.icon {
+	color: white;
+}
 .navigation a:hover {
-	background-color: purple;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+
+.active {
+	background-color: #6c00c4;
 	color: white;
 }
 
