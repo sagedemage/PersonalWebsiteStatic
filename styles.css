@@ -15,7 +15,6 @@ html * {
 }
 
 main {
-	/*background-color: #cec9eb;*/
 	padding-top: 10px;
 	padding-bottom: 25px;
 }
@@ -97,7 +96,6 @@ h1 {
 }
 
 .caption {
-	/*float: right;*/
 	padding-bottom: 30px;
 }
 
