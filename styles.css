@@ -11,22 +11,33 @@ html * {
 	padding-right: 5%;
 	padding-bottom: 75px;
 	font-size: 16px;
+	border: 2px solid darkblue;
 }
 
 main {
-	background-color: #efefef;
+	/*background-color: #cec9eb;*/
 	padding-top: 10px;
-	padding-bottom: 75px;
+	padding-bottom: 25px;
+}
+
+main, footer {
+	background-color: #cec9eb;
+}
+
+header {
+	padding-top: 0.2em;
+	background-image: linear-gradient(90deg, #d952ff 10%, #6773ff 60%, #7259ff 90%)
 }
 
 footer {
 	padding-top: 30px;
-	padding-bottom: 30px;
-	background-color: lightgray;
+	padding-bottom: 50px;
+	color: black;
 }
 
 h1 {
 	padding-left: 50px;
+	padding-bottom: 0.4em;
 }
 
 .navigation {
@@ -77,7 +88,7 @@ h1 {
 	text-align: center;
 }
 #links {
-	padding-left: 50px;
+	padding-left: 10%;
 }
 
 .large_image {
