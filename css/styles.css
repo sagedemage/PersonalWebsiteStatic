@@ -2,8 +2,8 @@ html * {
 	font-family: Arial, Helvetica, sans-serif;	
 }
 html, body {
-	min-height: 1em;
-	min-width: 30em;
+	min-height: 50em;
+	min-width: 24em;
 	background-color: #cec9eb;
 	float: center; 
 
