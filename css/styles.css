@@ -46,7 +46,8 @@ footer {
 }
 
 h1 {
-	padding-left: 2em;
+	/* My website title indent */
+	padding-left: 1em;
 	padding-bottom: 0.4em;
 }
 
