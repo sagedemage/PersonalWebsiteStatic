@@ -5,11 +5,12 @@ html, body {
 	min-height: 1em;
 	min-width: 30em;
 	background-color: #cec9eb;
+	float: center; 
 
 }
 .content {
-	margin-right: 4em;
-	margin-left: 4em;
+	margin-right: 2em;
+	margin-left: 2em;
 	margin-top: 1em;
 	background-color: white;
 	padding-top: 1em;
@@ -50,10 +51,6 @@ h2, .header_line {
 	border-bottom: 1px solid black;
 	padding-bottom: 3px;
 }
-
-/*.nav-background {
-	background-color: #303030;
-}*/
 
 .navigation {
 	background-color: #303030;
@@ -99,7 +96,7 @@ h2, .header_line {
 	text-align: center;
 }
 #links {
-	margin-left: 6em;
+	margin-left: 4em;
 }
 
 .large_image {
