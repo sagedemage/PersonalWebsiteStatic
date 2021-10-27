@@ -5,7 +5,7 @@ html {
 	/* min width is required to make 
 	the website responsive in mobile
 	*/
-	min-width: 240px;
+	min-width: 1em;
 	min-height: 1em;
 	/*Sets background color 
 	for the whole page*/
