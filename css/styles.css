@@ -2,11 +2,10 @@ html * {
 	font-family: Arial, Helvetica, sans-serif;	
 }
 html {
-	/* These are required to make 
-	website responsive in mobile
+	/* min width is required to make 
+	the website responsive in mobile
 	*/
-	min-height: 50em;
-	min-width: 24em;
+	min-width: 480px;
 	/*Sets background color 
 	for the whole page*/
 	background-color: #cec9eb;
