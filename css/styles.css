@@ -102,6 +102,7 @@ h2, .header_line {
 }
 #copyright {
 	text-align: center;
+	clear: left;
 }
 #links {
 	margin-left: 4em;
