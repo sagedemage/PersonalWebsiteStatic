@@ -35,7 +35,8 @@ main, footer {
 }
 
 header {
-	padding-top: 0.2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 	background-image: linear-gradient(90deg, #d952ff 10%, #6773ff 60%, #7259ff 90%);
 }
 
@@ -48,8 +49,6 @@ footer {
 h1 {
 	/* My website title indent */
 	padding-left: 1em;
-	padding-top: 0.4em;
-	padding-bottom: 0.4em;
 }
 
 h2, .header_line {
