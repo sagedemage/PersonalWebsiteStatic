@@ -19,17 +19,33 @@
 		<!-- This is the compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!-- Hosted jQuery library from Google -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<!-- Slicknav javascript file -->
+		<script src="../js/jquery.slicknav.min.js"></script>
+		<!-- Slicknav css file -->
+		<link rel="stylesheet" href="../css/slicknav.css">
 	</head>
 	<body>
+		<!-- Slicknav Script -->
+		<script>
+		$(function(){
+			$('#nav_menu').slicknav({
+				prependTo: '#mobile_menu'
+			});
+		});
+		</script>
 		<!-- The Website Title -->
 		<header>
 			<h1> Salmaan Saeed </h1>
 		</header>
+		<!-- Slicknav spawns here -->
+		<nav id ="mobile_menu"></nav>
 		<!-- Navigation Bar -->
-		<ul class="navigation">
+		<ul id="nav_menu">
 			<li><a href="../index.html"> Home </a></li>
-			<li><a href="computer.html"> PC </a></li>
-			<li><a class="active" href="operating_system.html"> OS </a></li>
+			<li><a href="computer.html"> Personal Computer </a></li>
+			<li><a class="active" href="operating_system.html"> Operating Systems </a></li>
 		</ul>
 		<main>
 			<!-- Article Content -->

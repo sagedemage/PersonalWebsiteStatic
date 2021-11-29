@@ -19,17 +19,33 @@
 		<!-- This is the compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!-- Hosted jQuery library from Google -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<!-- Slicknav javascript file -->
+		<script src="js/jquery.slicknav.min.js"></script>
+		<!-- Slicknav css file -->
+		<link rel="stylesheet" href="css/slicknav.css">
 	</head>
 	<body>
+		<!-- Slicknav Script -->
+		<script>
+		$(function(){
+			$('#nav_menu').slicknav({
+				prependTo: '#mobile_menu'
+			});
+		});
+		</script>
 		<!-- The Website Title -->
 		<header>
 			<h1> Salmaan Saeed </h1>
 		</header>
+		<!-- Slicknav spawns here -->
+		<nav id ="mobile_menu"></nav>
 		<!-- Navigation Bar -->
-		<ul class="navigation">
+		<ul id="nav_menu">
 			<li><a class="active" href="index.html"> Home </a></li>
-			<li><a href="interests/computer.html"> PC </a></li>
-			<li><a href="interests/operating_system.html"> OS </a></li>
+			<li><a href="interests/computer.html"> Personal Computer </a></li>
+			<li><a href="interests/operating_system.html"> Operating Systems </a></li>
 		</ul>
 		<main>
 			<!-- Article Content -->
@@ -43,8 +59,6 @@
 				<p> During my free time, I like to play video games and watch anime. My favorite video games 
 				are Terraria and Cave Story. My favorite anime series are Samurai Champloo, Clannad and JoJo's Bizarre Adventure. 
 				I am currently watching Hunter x Hunter and I like it so far. </p>
-				<h3> Resume </h3>
-				<p> I have a link to my <a href="documents/Resume.pdf">resume</a> that you can take a look at. </p> 
 			</div>
 		</main>
 		<footer>
