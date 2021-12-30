@@ -120,7 +120,7 @@ h2, .header_line {
 }
 
 .scale_image {
-	max-width: 80%;
+	max-width: 50%;
 	height: auto;
 }
 
