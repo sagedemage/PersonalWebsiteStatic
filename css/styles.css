@@ -102,19 +102,18 @@ h2, .header_line {
 	padding-right: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	float: left;
 	margin-right: auto;
 }
 
 #gnome_logo {
 	display: block;
-	float: left;
 	margin-right: auto;
 }
 #copyright {
 	text-align: center;
 	clear: left;
 }
+
 #links {
 	margin-left: 6em;
 }
@@ -130,6 +129,7 @@ h2, .header_line {
 
 .caption-info {
 	min-height: 175px;
+	float: left;
 }
 
 .icon-link {
