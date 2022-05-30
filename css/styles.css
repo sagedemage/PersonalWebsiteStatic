@@ -48,7 +48,8 @@ footer {
 
 h1 {
 	/* My website title indent */
-	padding-left: 2em;
+	padding-left: 0em;
+	margin-left: 0.5em;
 }
 
 h2, .header_line {
