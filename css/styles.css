@@ -118,8 +118,13 @@ h2, .header_line {
 	margin-left: 2%;
 }
 
-.scale_image {
-	max-width: 50%;
+.scale_image_large {
+	max-width: 75%;
+	height: auto;
+}
+
+.scale_image_medium {
+	max-width: 90%;
 	height: auto;
 }
 
