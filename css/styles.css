@@ -13,9 +13,9 @@ html {
 }
 
 .content {
-	margin-right: 2em;
-	margin-left: 2em;
-	margin-top: 1em;
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-top: 1%;
 	background-color: white;
 	padding-top: 1em;
 	padding-bottom: 2em;
@@ -48,7 +48,7 @@ footer {
 
 h1 {
 	/* My website title indent */
-	margin-left: 0.5em;
+	margin-left: 0.5%;
 }
 
 h2, .header_line {
@@ -115,7 +115,7 @@ h2, .header_line {
 }
 
 #links {
-	margin-left: 2em;
+	margin-left: 2%;
 }
 
 .scale_image {
@@ -134,7 +134,7 @@ h2, .header_line {
 
 .icon-link {
 	float: left;
-	margin-left: 0.3em;
+	margin-left: 0.3%;
 }
 
 .icon-link:hover {
